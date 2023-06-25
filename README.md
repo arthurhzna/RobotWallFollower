@@ -1,2 +1,2 @@
 # RobotWallFollower
-Robot Wall Follower ini menggunakan kontrol Closed Loop PID, dengan menggunakan sensor jarak HCSR-04
+Robot ini mengunakan PID pada sensor kiri dan kanan, dan ketika ingin membelok menggunakan trigger pembacaan sensor pada salah satuh sensor HCSR04 yang tidak mendeteksi ada dinding, saat robot ingin memutar arah, robot menggunakan delay, dimana program ini masih ingin di perbaiki menggunakan pembacaan encoder motor dc atau bisa juga timer, tapi yang recomend iyalah menggunakan encoder motor dc
